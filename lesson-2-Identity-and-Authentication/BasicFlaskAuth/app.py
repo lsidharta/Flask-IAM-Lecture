@@ -7,9 +7,9 @@ from urllib.request import urlopen
 
 app = Flask(__name__)
 
-AUTH0_DOMAIN = @TODO_REPLACE_WITH_YOUR_DOMAIN
+AUTH0_DOMAIN = 'dev-lba2tfltor1ji6jf.us.auth0.com'#@TODO_REPLACE_WITH_YOUR_DOMAIN
 ALGORITHMS = ['RS256']
-API_AUDIENCE = @TODO_REPLACE_WITH_YOUR_API_AUDIENCE
+API_AUDIENCE = 'ValidatingAuth0Tokens'#@TODO_REPLACE_WITH_YOUR_API_AUDIENCE
 
 
 class AuthError(Exception):
